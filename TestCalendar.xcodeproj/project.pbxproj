@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3C048610275A6FED00CFBABC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C04860F275A6FED00CFBABC /* NotificationView.swift */; };
+		3C048612275AB1C600CFBABC /* Notification ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C048611275AB1C600CFBABC /* Notification ViewModel.swift */; };
+		3C048615275AB89700CFBABC /* MagicalMysteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C048614275AB89700CFBABC /* MagicalMysteryView.swift */; };
 		3CB59AFE2757CC1A00A278E4 /* TestCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB59AFD2757CC1A00A278E4 /* TestCalendarApp.swift */; };
 		3CB59B002757CC1A00A278E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB59AFF2757CC1A00A278E4 /* ContentView.swift */; };
 		3CB59B022757CC1C00A278E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB59B012757CC1C00A278E4 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		3C04860F275A6FED00CFBABC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3C048611275AB1C600CFBABC /* Notification ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification ViewModel.swift"; sourceTree = "<group>"; };
+		3C048614275AB89700CFBABC /* MagicalMysteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalMysteryView.swift; sourceTree = "<group>"; };
 		3CB59AFA2757CC1A00A278E4 /* TestCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB59AFD2757CC1A00A278E4 /* TestCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCalendarApp.swift; sourceTree = "<group>"; };
 		3CB59AFF2757CC1A00A278E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C048613275AB2AD00CFBABC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C048611275AB1C600CFBABC /* Notification ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		3CB59AF12757CC1A00A278E4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +70,9 @@
 				3CB59AFD2757CC1A00A278E4 /* TestCalendarApp.swift */,
 				3CB59AFF2757CC1A00A278E4 /* ContentView.swift */,
 				3C04860F275A6FED00CFBABC /* NotificationView.swift */,
+				3C048614275AB89700CFBABC /* MagicalMysteryView.swift */,
 				3CC2C07B275A2D2B008BEA56 /* ToggleView.swift */,
+				3C048613275AB2AD00CFBABC /* View Model */,
 				3CB59B012757CC1C00A278E4 /* Assets.xcassets */,
 				3CB59B032757CC1C00A278E4 /* Preview Content */,
 			);
@@ -146,7 +160,9 @@
 				3CB59B002757CC1A00A278E4 /* ContentView.swift in Sources */,
 				3CC2C07C275A2D2B008BEA56 /* ToggleView.swift in Sources */,
 				3CB59AFE2757CC1A00A278E4 /* TestCalendarApp.swift in Sources */,
+				3C048615275AB89700CFBABC /* MagicalMysteryView.swift in Sources */,
 				3C048610275A6FED00CFBABC /* NotificationView.swift in Sources */,
+				3C048612275AB1C600CFBABC /* Notification ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

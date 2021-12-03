@@ -16,7 +16,7 @@ struct ContentView: View {
                     Image(systemName: "airpods")
                     //Buy AirPod.
                     Text("Notification autorisation")
-            }
+                }
             ToggleView()
                 .tabItem {
                     Image(systemName: "bitcoinsign.circle")
@@ -24,7 +24,6 @@ struct ContentView: View {
                     Text("Réglages")
                 }
         }
-        
     }
 }
 
