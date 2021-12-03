@@ -13,13 +13,15 @@ struct ContentView: View {
         TabView {
             NotificationView()
                 .tabItem {
-                    Image(systemName: "minus")
+                    Image(systemName: "airpods")
+                    //Buy AirPod.
                     Text("Notification autorisation")
             }
             ToggleView()
                 .tabItem {
-                    Image(systemName: "plus")
-                    Text("Active Urssaf notification")
+                    Image(systemName: "bitcoinsign.circle")
+                    //BuyBitcoins.
+                    Text("Réglages")
                 }
         }
         
