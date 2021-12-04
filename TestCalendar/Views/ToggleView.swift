@@ -37,7 +37,6 @@ struct ToggleView: View {
                         }
                     }
                 }.toggleStyle(SwitchToggleStyle(tint: Color.blue))
-                
             }
         }
     }

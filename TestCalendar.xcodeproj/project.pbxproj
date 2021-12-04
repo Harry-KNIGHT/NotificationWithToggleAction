@@ -15,6 +15,8 @@
 		3CB59B022757CC1C00A278E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB59B012757CC1C00A278E4 /* Assets.xcassets */; };
 		3CB59B052757CC1C00A278E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB59B042757CC1C00A278E4 /* Preview Assets.xcassets */; };
 		3CC2C07C275A2D2B008BEA56 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC2C07B275A2D2B008BEA56 /* ToggleView.swift */; };
+		3CDFE8AF275C0970003CF03C /* SteveAppleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFE8AE275C0970003CF03C /* SteveAppleImageCell.swift */; };
+		3CDFE8B2275C0B22003CF03C /* BackgroundRectangleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFE8B1275C0B22003CF03C /* BackgroundRectangleCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3CB59B012757CC1C00A278E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB59B042757CC1C00A278E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CC2C07B275A2D2B008BEA56 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		3CDFE8AE275C0970003CF03C /* SteveAppleImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteveAppleImageCell.swift; sourceTree = "<group>"; };
+		3CDFE8B1275C0B22003CF03C /* BackgroundRectangleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRectangleCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3CB59AFD2757CC1A00A278E4 /* TestCalendarApp.swift */,
-				3CB59AFF2757CC1A00A278E4 /* ContentView.swift */,
-				3C04860F275A6FED00CFBABC /* NotificationView.swift */,
-				3C048614275AB89700CFBABC /* MagicalMysteryView.swift */,
-				3CC2C07B275A2D2B008BEA56 /* ToggleView.swift */,
+				3CDFE8B0275C09FA003CF03C /* Views */,
 				3C048613275AB2AD00CFBABC /* View Model */,
 				3CB59B012757CC1C00A278E4 /* Assets.xcassets */,
 				3CB59B032757CC1C00A278E4 /* Preview Content */,
@@ -85,6 +86,27 @@
 				3CB59B042757CC1C00A278E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CDFE8B0275C09FA003CF03C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CB59AFF2757CC1A00A278E4 /* ContentView.swift */,
+				3C04860F275A6FED00CFBABC /* NotificationView.swift */,
+				3C048614275AB89700CFBABC /* MagicalMysteryView.swift */,
+				3CC2C07B275A2D2B008BEA56 /* ToggleView.swift */,
+				3CDFE8B3275C0B96003CF03C /* CellView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CDFE8B3275C0B96003CF03C /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				3CDFE8B1275C0B22003CF03C /* BackgroundRectangleCellView.swift */,
+				3CDFE8AE275C0970003CF03C /* SteveAppleImageCell.swift */,
+			);
+			path = CellView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +183,9 @@
 				3CC2C07C275A2D2B008BEA56 /* ToggleView.swift in Sources */,
 				3CB59AFE2757CC1A00A278E4 /* TestCalendarApp.swift in Sources */,
 				3C048615275AB89700CFBABC /* MagicalMysteryView.swift in Sources */,
+				3CDFE8B2275C0B22003CF03C /* BackgroundRectangleCellView.swift in Sources */,
 				3C048610275A6FED00CFBABC /* NotificationView.swift in Sources */,
+				3CDFE8AF275C0970003CF03C /* SteveAppleImageCell.swift in Sources */,
 				3C048612275AB1C600CFBABC /* Notification ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
